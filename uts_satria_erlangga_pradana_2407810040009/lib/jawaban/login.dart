@@ -217,7 +217,7 @@ class _LoginPageState extends State<LoginPage> {
                               onTap: () {
                                 // contoh navigasi ke halaman register
                                 ScaffoldMessenger.of(context).showSnackBar(
-                                  const SnackBar(content: Text('Navigasi ke halaman Daftar')),
+                                  const SnackBar(content: Text('/menudaftar')),
                                 );
                               },
                               child: Text(
